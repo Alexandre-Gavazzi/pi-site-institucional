@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <h1>NaturTec</h1>
+            <ul class="navbar">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="">Simulador</a></li>
+                <li>|</li>
+                <li><a href="pagelogin.html">Login</a></li>
+                <li class="active">Cadastro</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner">
+
+        <div class="formCadastro">
+            <h2>Novo contribuinte para um Mundo Melhor!</h2>
+            <div>
+                <span>Nome:</span>
+                <input type="text" placeholder="Digite seu nome" id="ipt_cad_nome">
+                <span>Data de Nascimento:</span>
+                <input type="date" id="ipt_cad_datenasc">
+            </div>
+
+            <div>
+                <span>idUser:</span>
+                <input type="text" placeholder="Crie um usuário ex: alexandre.ag" id="ipt_cad_user">
+                <span>Celular  para  Contato:</span>
+                <input type="tel" placeholder="(xx) x xxxx-xxxx" id="ipt_cad_celular">
+            </div>
+
+            <div>
+                <span>E-mail:</span>
+                <input type="text" placeholder="Insina seu e-mail" id="ipt_cad_email">
+                <span>Confirme seu E-mail:</span>
+                <input type="text" placeholder="Confirme seu e-mail" id="ipt_cad_conf_email">
+            </div>
+
+            <div>
+                <span>Senha:</span>
+                <input type="password" placeholder="Insina uma nova senha" id="ipt_cad_senha">
+                <span>Confirme sua Senha:</span>
+                <input type="password" placeholder="Confirme a senha" id="ipt_cad_conf_senha">
+            </div> <br>
+
+            <div>
+                <div>
+                    <button onclick="bu_gerar_codigo()">Gerar código:</button><span id="span_codigo_gerado">___________</span>
+                </div>
+                <span class="span_robo">Confirme que você não é um Robô:</span>
+                <input type="text" placeholder="Digite o Código ex: x.xxxxxxxxxx" id="ipt_dig_cod">
+            </div>
+            <button onclick="bu_cadastrar()">Cadastrar</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Feito com muita dedicação por um Aluno Bandtec. @2021</p>
+    </div>
+
+</body>
+
+</html>
+
+<script type="text/javascript" src="script.js"></script>

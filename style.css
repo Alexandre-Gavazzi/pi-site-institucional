@@ -7,7 +7,7 @@
 .header {
     height: 100px;
     background-color: black;
-    border: aquamarine 3px solid;
+    border: #2aa73e 3px solid;
 }
 
 .container {
@@ -31,19 +31,208 @@
 }
 
 .header h1 {
- color: aquamarine;
+ color: #2aa73e;
 }
 
 .navbar li a {
     text-decoration: none;
-    color: goldenrod;
+    color: #01c522;
 }
 
 .navbar li {
     font-weight: lighter;
-    color: goldenrod;
+    color: #52ff49;
+}
+
+.navbar li a:hover {
+    color: #068000;
 }
 
 .navbar .active{
     font-weight: bolder;
+}
+
+.banner {
+    height: 500px;
+    background-color: midnightblue;
+    background-image: url(https://img.fotocommunity.com/waldpanorama-158ab7b1-5e70-4abc-93bf-68dfd0cc68fb.jpg?height=500);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formMessage {
+    background-color: #00460c95;
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.message {
+    width: 70%;
+    color: #afffb8;
+    font-size: 50px;    
+    font-weight: bolder;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #28973598;
+}
+
+.proposito {
+    height: 450px;
+    background-color: #2aa73e;
+}
+
+.proposito .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.proposito .container h2 {
+    color: #034400;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.proposito .container .mvv div img {
+    height: 100px;
+    width: 100px;
+}
+
+.proposito .container .mvv {
+    width: 100%;
+    background-color: #2aa73e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proposito .container .mvv div {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 24, 3);
+}
+
+.proposito .container .mvv div h3 {
+    color: #034400;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+.footer {
+    background-color:rgb(19, 87, 2);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: #afffb8;
+}
+
+.formlogin {
+    background-color: #00460ccd;
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.banner .formlogin h2 {
+    color: #afffb8;
+}
+
+.banner .formlogin div {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .formlogin span {
+ color: #afffb8;
+}
+
+.banner .formlogin input {
+    background-color: #6cff78;
+    color: #00460ccd;
+    border: 2px solid #00460ccd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 210px;
+}
+
+.banner .formlogin button {
+    background-color:#00460ccd;
+    color: #6cff78;
+    border-color: #6cff78;    
+    padding: 10px 20px;
+}
+
+.formCadastro {
+    background-color: #00460ccd;
+    height: 440px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.banner .formCadastro input {
+    background-color: #6cff78;
+    color: #041f00 ;
+    border: 2px solid #00460ccd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.banner .formCadastro button {
+    background-color:#00460ccd;
+    color: #6cff78;
+    border-color: #6cff78;    
+    padding: 10px 20px;
+}
+
+.banner .formCadastro h2 {
+    color: #afffb8;
+}
+
+.banner .formCadastro span {
+    color: #afffb8;
+}
+
+.banner .formCadastro div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .formCadastro div div span {
+    font-weight: bolder;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.banner .formCadastro div .span_robo {
+    font-weight: bolder;
+}
+
+::-webkit-input-placeholder {
+    color: #041f00;
 }
